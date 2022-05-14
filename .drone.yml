@@ -1,0 +1,6 @@
+- name: node
+  image: "ubuntu\
+          :20.04"
+  commands:
+    - npm install
+    - npm test
