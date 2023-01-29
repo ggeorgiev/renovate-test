@@ -1,12 +1,11 @@
 - name: node
-  image: ubuntu:20.04
+  image: ubuntu:22.04
   commands:
     - npm install
     - npm test
 
 - name: node
-  image: "ubuntu\
-          :20.04"
+  image: "ubuntu:22.04"
   commands:
     - npm install
     - npm test
